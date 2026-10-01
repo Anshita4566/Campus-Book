@@ -34,7 +34,7 @@ const LoginPage = () => {
 
   const API_BASE = import.meta.env.MODE === 'development' 
   ? 'http://localhost:4000' 
-  : ' https://campus-book-rkon.onrender.com '; // production
+  :'https://campus-book-rkon.onrender.com''; // production
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

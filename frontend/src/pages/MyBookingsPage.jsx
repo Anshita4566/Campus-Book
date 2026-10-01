@@ -11,7 +11,7 @@ const MyBookingsPage = () => {
   const API_BASE =
     import.meta.env.MODE === 'development'
       ? 'http://localhost:4000'
-      : ' https://campus-book-rkon.onrender.com ';
+      :'https://campus-book-rkon.onrender.com'';
 
   const fetchMyBookings = async () => {
     try {
