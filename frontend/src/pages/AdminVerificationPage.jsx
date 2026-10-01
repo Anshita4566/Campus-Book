@@ -12,7 +12,7 @@ const AdminVerificationPage = () => {
 
   const API_BASE = import.meta.env.MODE === 'development' 
     ? 'http://localhost:4000' 
-    :'https://campus-book-rkon.onrender.com'';
+    :'https://campus-book-rkon.   onrender.com';
 
   useEffect(() => {
     const userId = localStorage.getItem('pendingAdminUserId');
